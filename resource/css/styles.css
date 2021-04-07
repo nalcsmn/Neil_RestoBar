@@ -101,14 +101,16 @@ header {
 .btn-ghost:link,
 .btn-ghost:visited {
   color: #798777;
-  transition: 0.5s; margin: 5px;
+  transition: 0.5s;
+  margin: 5px;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
   background-color: #798777;
   color: #f8ede3;
-  transition: 0.5s; margin: 5px;
+  transition: 0.5s;
+  margin: 5px;
 }
 
 /* section FoodChoice */
@@ -126,17 +128,18 @@ header {
 }
 
 .cardbod {
-  padding: 20px;
+  margin-top: 50px;
+
   background-color: #a2b29f;
   min-height: 500px;
-  padding: 20px;
+
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
-  margin: 10px 10px;
 }
 
 .card h3 {
+  margin: 10px;
   padding: 15px;
   font-size: 90%;
   text-align: center;
@@ -153,25 +156,23 @@ header {
 }
 
 .card p {
-
   font-size: 70%;
   font-family: "Lora", serif;
   color: #2c2c2c;
-  
+
   text-align: justify;
 }
 
-.inner{
+.inner {
   overflow: hidden;
 }
 
-.inner img{
+.inner img {
   transition: all 1.5s ease;
 }
-.inner:hover img{
+.inner:hover img {
   transform: scale(1.5);
 }
-
 
 .btn-card:link,
 .btn-card:visited {
@@ -191,51 +192,47 @@ header {
   transition: 0.5s;
   text-decoration: none;
 }
-.SectionTwo{
+.SectionTwo {
   min-height: 90vh;
   background-color: #bdd2b6;
 }
 
-
-
-
-.chefpic{
+.chefpic {
   padding-bottom: 10px;
 }
-.chefT{
+.chefT {
   padding-top: 70px;
   text-align: center;
   font: 200%;
-  
-  font-family: 'New Tegomin', serif; 
+
+  font-family: "New Tegomin", serif;
   text-transform: uppercase;
   word-spacing: 4px;
   margin-bottom: 30px;
 }
-.chef-name{
-  font-family: 'New Tegomin', serif; 
+.chef-name {
+  font-family: "New Tegomin", serif;
   font-size: 120%;
 }
 
 .chef-p {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   font-size: 70%;
 }
 footer {
   height: 10vh;
   background-color: #2c2c2c;
-  color: #EAF6F6;
-  font-size: .75rem;
+  color: #eaf6f6;
+  font-size: 0.75rem;
   padding: 20px 0 20px;
   text-align: center;
-  font-family: 'Lora', serif;
-  
+  font-family: "Lora", serif;
 }
 
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
-  color: #EAF6F6;
+  color: #eaf6f6;
   transition: 0.5s;
   margin: 5px;
 }
@@ -251,7 +248,7 @@ footer {
 .footer-twit:link,
 .footer-twit:visited {
   text-decoration: none;
-  color: #EAF6F6;
+  color: #eaf6f6;
   transition: 0.5s;
   margin: 5px;
 }
@@ -267,7 +264,7 @@ footer {
 .footer-fb:link,
 .footer-fb:visited {
   text-decoration: none;
-  color: #EAF6F6;
+  color: #eaf6f6;
   transition: 0.5s;
   margin: 5px;
 }
@@ -280,10 +277,10 @@ footer {
   margin: 5px;
 }
 
-.footer-note{
-  font-family: 'New Tegomin', serif;
+.footer-note {
+  font-family: "New Tegomin", serif;
+  padding: 10px 10px;
 }
-
 
 @media (max-width: 992px) {
   .navcon {
@@ -304,37 +301,16 @@ footer {
   }
 }
 
-
-@media (max-width: 994px){
+@media (max-width: 994px) {
   .btn-card:link,
   .btn-card:visited {
-    background-color: #798777;
-    transition: 0.5s;
     font-size: 50%;
-    
-    border: 1px solid #f8ede3;
-    border-radius: 15px;
-    padding: 5px 15px;
-    color: #f8ede3;
   }
-  
-  .btn-card:hover,
-  .btn-card:active {
-    color: #798777;
-    background-color: #f8ede3;
-    transition: 0.5s;
-    text-decoration: none;
-  }
-
 }
 
-@media (max-width: 766px){
+@media (max-width: 766px) {
   .btn-card:link,
   .btn-card:visited {
     font-size: 75%;
-    
-  
   }
-  
-  
 }
