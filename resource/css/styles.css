@@ -24,7 +24,7 @@ header {
       rgba(20, 20, 20, 0.69),
       rgba(20, 20, 20, 0.69)
     ),
-    url(/resource/img/bg1.jpg);
+    url(https://images.pexels.com/photos/5865071/pexels-photo-5865071.jpeg?cs=srgb&dl=pexels-rachel-claire-5865071.jpg&fm=jpg);
   background-size: cover;
   background-position: center;
 }
@@ -117,11 +117,12 @@ header {
 
 .SectionOne {
   min-height: 100vh;
+  
   background-image: linear-gradient(
       rgba(220, 220, 220, 0.7),
       rgba(220, 220, 220, 0.6)
     ),
-    url(/resource/img/sectionOne.jpg);
+    url(https://images.pexels.com/photos/4033639/pexels-photo-4033639.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4033639.jpg&fm=jpg);
   background-size: cover;
   background-position: center;
   padding-top: 2px;
