@@ -126,6 +126,7 @@ header {
 }
 
 .cardbod {
+  padding: 20px;
   background-color: #a2b29f;
   min-height: 500px;
   padding: 20px;
@@ -137,14 +138,14 @@ header {
 
 .card h3 {
   padding: 15px;
-  font-size: 70%;
+  font-size: 90%;
   text-align: center;
   font-family: "New Tegomin", serif;
   color: #2c2c2c;
 }
 
 .card h4 {
-  padding: 10px;
+  padding-top: 10px;
   font-size: 90%;
   text-align: center;
   color: #2c2c2c;
@@ -152,12 +153,25 @@ header {
 }
 
 .card p {
+
   font-size: 70%;
   font-family: "Lora", serif;
   color: #2c2c2c;
-  padding: 2px;
+  
   text-align: justify;
 }
+
+.inner{
+  overflow: hidden;
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
+
 
 .btn-card:link,
 .btn-card:visited {
@@ -182,10 +196,7 @@ header {
   background-color: #bdd2b6;
 }
 
-footer {
-  height: 10vh;
-  background-color: #2c2c2c;
-}
+
 
 
 .chefpic{
@@ -210,8 +221,71 @@ footer {
   font-family: 'Lora', serif;
   font-size: 70%;
 }
+footer {
+  height: 10vh;
+  background-color: #2c2c2c;
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0 20px;
+  text-align: center;
+  font-family: 'Lora', serif;
+  
+}
 
-@media (max-width: 767px) {
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #EAF6F6;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #798777;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-twit:link,
+.footer-twit:visited {
+  text-decoration: none;
+  color: #EAF6F6;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-twit:hover,
+.footer-twit:active {
+  color: #798777;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-fb:link,
+.footer-fb:visited {
+  text-decoration: none;
+  color: #EAF6F6;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-fb:hover,
+.footer-fb:active {
+  color: #798777;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-note{
+  font-family: 'New Tegomin', serif;
+}
+
+
+@media (max-width: 992px) {
   .navcon {
     background-color: #1c1c1c;
   }
@@ -228,4 +302,39 @@ footer {
   .headermain {
     font-size: 1.5rem;
   }
+}
+
+
+@media (max-width: 994px){
+  .btn-card:link,
+  .btn-card:visited {
+    background-color: #798777;
+    transition: 0.5s;
+    font-size: 50%;
+    
+    border: 1px solid #f8ede3;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: #f8ede3;
+  }
+  
+  .btn-card:hover,
+  .btn-card:active {
+    color: #798777;
+    background-color: #f8ede3;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+}
+
+@media (max-width: 766px){
+  .btn-card:link,
+  .btn-card:visited {
+    font-size: 75%;
+    
+  
+  }
+  
+  
 }
