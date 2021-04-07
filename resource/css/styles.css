@@ -281,6 +281,18 @@ footer {
   font-family: "New Tegomin", serif;
   padding: 10px 10px;
 }
+.rtbutton{
+  
+  position: fixed;
+  bottom: 30px;
+  right:30px;
+  z-index: 99;
+}
+.rtbutton a:link,
+.rtbutton a:visited{
+  color: #ffaaa7;
+}
+
 
 @media (max-width: 992px) {
   .navcon {
